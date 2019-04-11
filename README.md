@@ -1,9 +1,10 @@
-# TelegramBotAZooiVerde
+# AZooiVerde | Juninho Bot
 
 ### Telegram Bot Java Library
 [![Telegram](http://trellobot.doomdns.org/telegrambadge.svg)](https://telegram.me/JavaBotsApi)
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.telegram/telegrambots/badge.svg)](http://mvnrepository.com/artifact/org.telegram/telegrambots)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/gabyguedzu/TelegramBotAZooiVerde/blob/master/LICENSE)
 
 
 
