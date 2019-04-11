@@ -6,8 +6,19 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.telegram/telegrambots/badge.svg)](http://mvnrepository.com/artifact/org.telegram/telegrambots)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/gabyguedzu/TelegramBotAZooiVerde/blob/master/LICENSE)
 
+## Using Maven
 
+Just import add the library to your project with one of these options:
 
+  1. Using Maven Central Repository:
+
+```xml
+    <dependency>
+        <groupId>org.telegram</groupId>
+        <artifactId>telegrambots</artifactId>
+        <version>4.1.2</version>
+    </dependency>
+```
 
 ## License 
 MIT License
