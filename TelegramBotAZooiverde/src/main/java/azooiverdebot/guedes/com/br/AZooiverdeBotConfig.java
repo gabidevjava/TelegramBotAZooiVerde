@@ -12,7 +12,7 @@ public class AZooiverdeBotConfig extends TelegramLongPollingBot {
 		return botName;
 	}
 
-	public void onUpdateReceived(Update arg0) {
+	public void onUpdateReceived(Update update) {
 		// TODO Auto-generated method stub
 		
 	}
