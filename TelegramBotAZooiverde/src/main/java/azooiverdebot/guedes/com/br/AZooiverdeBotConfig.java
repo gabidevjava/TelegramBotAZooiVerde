@@ -8,7 +8,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 public class AZooiverdeBotConfig extends TelegramLongPollingBot {
 	
 	private final String botName  = "Juninho Bot";
-	private final String botToken = "792784760:AAFE_d8CfhFJDPztbPukfJ-TWuHW1u0eD9E";
+	private final String botToken = "<token>";
 
 	public String getBotUsername() {
 		return botName;
@@ -20,12 +20,12 @@ public class AZooiverdeBotConfig extends TelegramLongPollingBot {
 		SendMessage message = new SendMessage();
 		
 		if(command.equals("/start")) {
-			message.setText("Muito bem vindo nessa poha " + update.getMessage().getFrom().getFirstName());
+			message.setText("Muito bem vindo jovem " + update.getMessage().getFrom().getFirstName());
 		}
 		
 		if(command.equals("/meunome@azooiverde_bot")) {
 			System.out.println(update.getMessage().getFrom().getFirstName());
-			message.setText("Mas que bosta de nome hein jovem, pqp " + update.getMessage().getFrom().getFirstName());
+			message.setText("Ótimo nome " + update.getMessage().getFrom().getFirstName());
 		}
 		
 		message.setChatId(update.getMessage().getChatId());
